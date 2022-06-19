@@ -18,8 +18,8 @@ section {
   flex-direction: column;
 }
 .container_contact {
-  width: 90%;
-  max-width: 420px;
+  width: 80%;
+  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
   box-shadow: 0px 0px 20px #00000010;
