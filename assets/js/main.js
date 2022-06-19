@@ -9,12 +9,12 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function success() {
     form.reset();
-    status.classList.add("votre mail a bien été envoyé");
+    status.classList.add("success");
     status.innerHTML = "Merci!";
   }
 
   function error() {
-    status.classList.add("erreur");
+    status.classList.add("error");
     status.innerHTML = "Oups! Il y a eu un problême.";
   }
 
