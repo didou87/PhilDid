@@ -8,7 +8,7 @@
 body {
   font-family: "Montserrat";
 }
-section_contact {
+section {
   height: 100vh;
   width: 100%;
   background-color: aliceblue;
@@ -27,13 +27,13 @@ section_contact {
   border-radius: 8px;
   margin-bottom: 20px;
 }
-.form-group-contact {
+.form-group {
   width: 100%;
   margin-top: 20px;
   font-size: 20px;
 }
-.form-group_contact input,
-.form-group_contact textarea {
+.form-group input,
+.form-group_textarea {
   width: 100%;
   padding: 5px;
   font-size: 18px;
@@ -53,7 +53,7 @@ button[type="submit"] {
   border-radius: 8px;
   font-family: "Montserrat";
   color: rgb(27, 166, 247);
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   margin-top: 10px;
   transition: 0.3s ease background-color;
